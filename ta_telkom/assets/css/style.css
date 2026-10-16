@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+/* Sidebar */
+.sidebar{
+    width:250px;
+    height:100vh;
+    background:#E30613;
+    position:fixed;
+    top:0;
+    left:0;
+    color:#fff;
+    padding-top:20px;
+}
+
+.sidebar h3{
+    text-align:center;
+    margin-bottom:30px;
+    font-weight:600;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    padding:15px 20px;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.sidebar a:hover{
+    background:#b5000d;
+}
+
+/* Content */
+.content{
+    margin-left:250px;
+    padding:25px;
+}
+
+/* Card */
+.card{
+    border:none;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+/* Navbar */
+.navbar{
+    background:white;
+    border-radius:15px;
+    padding:15px;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+    margin-bottom:25px;
+}
+
+/* Button */
+.btn-danger{
+    background:#E30613;
+    border:none;
+}
+
+.btn-danger:hover{
+    background:#b5000d;
+}
+
+/* Table */
+.table{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.table thead{
+    background:#E30613;
+    color:white;
+}
+
+.badge{
+    padding:8px 12px;
+    border-radius:20px;
+}
